@@ -7,8 +7,8 @@ function NavBar () {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">Home</Link>
-        <Link to="/portfolio" className="navbar-brand">Portfolio</Link>
-        <Link to="/contact" className="navbar-brand">Contact Me</Link>
+        <Link to="/Portfolio" className="navbar-brand">Portfolio</Link>
+        <Link to="/Contact" className="navbar-brand">Contact Me</Link>
       </div>
     </nav>
   );
