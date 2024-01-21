@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 
 // Define the accessible routes, and which components respond to which URL
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <About />,
+        element: <Home />,
       },
       {
         path: '/Portfolio',
