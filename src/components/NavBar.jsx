@@ -8,6 +8,7 @@ function NavBar () {
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">Home</Link>
         <Link to="/Portfolio" className="navbar-brand">Portfolio</Link>
+        <Link to="/Resume" className="navbar-brand">Resume</Link>
         <Link to="/Contact" className="navbar-brand">Contact Me</Link>
       </div>
     </nav>

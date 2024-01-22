@@ -2,7 +2,7 @@ function Footer () {
   return (
     <footer className="text-center">
       <hr />
-      <span className="text-muted">Place sticky footer content here.</span>
+      <span className="text-muted">Thank you for visiting my site!</span>
     </footer>
   )
 }
