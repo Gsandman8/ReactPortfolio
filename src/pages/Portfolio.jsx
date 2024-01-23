@@ -21,6 +21,9 @@ function Portfolio() {
                     image={SGT}
                     link="https://sleepy-headland-38825-e68e0897078f.herokuapp.com/"
                 />
+                <div className="container col-12">
+                    <h3 className="text-center">More Projects Coming Soon!</h3>
+                </div>
             </div>
         </div>
     );
