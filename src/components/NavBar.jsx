@@ -5,7 +5,7 @@ function NavBar () {
   
     return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container-fluid flex">
         <Link to="/" className="navbar-brand">Home</Link>
         <Link to="/Portfolio" className="navbar-brand">Portfolio</Link>
         <Link to="/Resume" className="navbar-brand">Resume</Link>

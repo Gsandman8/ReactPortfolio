@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index: true,
         element: <Home />,
+        index: true,
       },
       {
         path: '/Portfolio',
