@@ -12,7 +12,8 @@ function Home() {
         <div className="container">
             <div className="col">
                 <div className="row">
-                    <h1 className="text-center" style={{fontFamily:"Helvetica"}}>About Me</h1>
+                    <h1 className="text-center" style={{fontFamily:"Helvetica", padding:"20px"}}>About Me</h1>
+                    <hr />
                     <div className="container col-4">
                         <img src={ME} alt="Gage Sandman" className="img-fluid img-thumbnail rounded img-center justify-content-center align-items-center" 
                         style={{height: "300px", width:"190px", backgroundColor:"#ffe4e1", borderWidth:"20px", borderBlockColor:"#ffe4e1"}} />

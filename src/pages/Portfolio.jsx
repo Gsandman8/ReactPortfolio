@@ -6,7 +6,8 @@ function Portfolio() {
     return (
         <div className="container-fluid">
             <div className="container">
-                <h1 className="text-center">My Portfolio</h1>
+                <h1 className="text-center" style={{fontFamily:"Helvetica", padding:"20px"}}>My Portfolio</h1>
+                <hr />
             </div>
             <div className="row">
                 <Project

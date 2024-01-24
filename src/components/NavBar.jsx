@@ -4,7 +4,7 @@ function NavBar () {
   const currentPage = useLocation().pathname;
   
     return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"#ffe4e1"}}>
       <div className="container-fluid flex">
         <Link to="/" className="navbar-brand">Home</Link>
         <Link to="/Portfolio" className="navbar-brand">Portfolio</Link>
