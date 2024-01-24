@@ -7,10 +7,10 @@ This project is a simple static portfolio website that uses React and the React-
 You can download my source code if you want to and deploy it yourself, or just visit the site here: https://65b17ad1202dad42cc74b9af--curious-starship-4b84d1.netlify.app/
 
 ## Technologies Used
-React.js
-React-bootstrap
-Bootstrap
-Vite
+- React.js
+- React-bootstrap
+- Bootstrap
+- Vite
 
 ## Link 
 In case you missed the first one, here is the deployed site: https://65b17ad1202dad42cc74b9af--curious-starship-4b84d1.netlify.app/
