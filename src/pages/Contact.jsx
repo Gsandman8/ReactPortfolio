@@ -1,4 +1,8 @@
 import { useState} from "react";
+import GITHUB from "../assets/GITHUB.png";
+import LINKEDIN from "../assets/LINKEDIN.png";
+import GMAIL2 from "../assets/GMAIL.png";
+import OUTLOOK from "../assets/OUTLOOK.png";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -43,19 +47,34 @@ function Contact() {
                     <div className="container col-12" style={{padding:"20px 0"}}>
                         <div className="row">
                         <h3 className="text-center">Or you can...</h3>
-                        <div className="container col-4">
-                            <h4>Visit my Github!</h4>
-                            <a href="https://github.com/Gsandman8">Here!</a>
+                        <div className="container col-4 justify-content-center align-items-center text-center">
+                            <h4 className="text-center">Visit my Github!</h4>
+                            <a href="https://github.com/Gsandman8" target="_blank" >
+                                <img src={GITHUB} alt="Github" className="img-fluid img-thumbnail rounded img-center justify-content-center align-items-center" 
+                                style={{height: "150px", width:"150px", backgroundColor:"#ffe4e1", borderWidth:"1px", borderBlockColor:"#ffe4e1"}} />
+                            </a>
                         </div>
-                        <div className="container col-4">
-                            <h4>Visit my LinkedIn!</h4>
-                            <a href=""></a>
+                        <div className="container col-4 justify-content-center align-items-center text-center">
+                            <h4 className="text-center">Visit my LinkedIn!</h4>
+                            <a href="https://www.linkedin.com/in/gagesandman/" target="_blank" >
+                                <img src={LINKEDIN} alt="LinkedIn" className="img-fluid img-thumbnail rounded img-center justify-content-center align-items-center"
+                                style={{height: "150px", width:"150px", backgroundColor:"#ffe4e1", borderWidth:"1px", borderBlockColor:"#ffe4e1"}} />
+                            </a>
                         </div>
-                        <div className="container col-4">
-                            <h4>Send me an email!</h4>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gage.e.sandman@gmail.com">If you are using G-mail</a>
+                        <div className="container col-4 justify-content-center align-items-center text-center">
+                            <h4 className="text-center">Send me an email!</h4>
+                            <div >
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gage.e.sandman@gmail.com" >
+                                <img src={GMAIL2} alt="Gmail" className="img-fluid img-thumbnail rounded img-center justify-content-center align-items-center"
+                                style={{height: "80px", width:"100px", backgroundColor:"#ffe4e1", borderWidth:"1px", borderBlockColor:"#ffe4e1"}} />
+                            </a>
                             <br/>
-                            <a href="mailto:gage.e.sandman@gmail.com">For other mail platforms</a>
+                            <br/>
+                            <a href="mailto:gage.e.sandman@gmail.com" >
+                                <img src={OUTLOOK} alt="Outlook" className="img-fluid img-thumbnail rounded img-center justify-content-center align-items-center"
+                                style={{height: "100px", width:"100px", backgroundColor:"#ffe4e1", borderWidth:"1px", borderBlockColor:"#ffe4e1"}} />
+                            </a>
+                            </div>
                         </div>
                         </div>
                     </div>
