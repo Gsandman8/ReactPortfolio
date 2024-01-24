@@ -8,6 +8,7 @@ function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const [submitted, setSubmitted] = useState(false);
     function handleClick(e) {
         e.preventDefault();
         console.log("Name: " + name);
@@ -16,6 +17,7 @@ function Contact() {
         setName("");
         setEmail("");
         setMessage("");
+        setSubmitted(true);
     }
     return (
         <div className="container">
@@ -27,11 +29,11 @@ function Contact() {
                 <div className="col-md-6">
                     <form>
                         <div className="form-group">
-                            <label for="exampleFormControlInput1">Name</label>
+                            <label for="exampleFormControlInput1" style={{fontFamily:"Helvetica"}}>Name</label>
                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" onChange={e => setName(e.target.value)} value={name} />
                         </div>
                         <div className="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
+                            <label for="exampleFormControlInput1" style={{fontFamily:"Helvetica"}}>Email address</label>
                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" onChange={e => setEmail(e.target.value)} value={email} />
                         </div>
                         <div className="form-group">
@@ -39,12 +41,13 @@ function Contact() {
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What's on your mind?" onChange={e => setMessage(e.target.value)} value={message}></textarea>
                         </div>
                         <button type="submit" className="btn btn-primary"
-                         style={{backgroundColor:"#ffe4e1", color:"black", borderColor:"black"}}
-                         onClick={handleClick}>Submit</button>
+                         style={{backgroundColor:"#ffe4e1", color:"black", borderColor:"black", fontFamily:"Helvetica"}}
+                         onClick={handleClick} >Submit</button>
+                        {submitted && <h3 style={{fontFamily:"Helvetica"}}>Thank you for your submission!</h3>}
                     </form>
                 </div>
                 <div className="col-md-6">
-                    <div className="container col-12" style={{padding:"20px 0"}}>
+                    <div className="container col-12" style={{padding:"20px 0", fontFamily:"Helvetica"}}>
                         <div className="row">
                         <h3 className="text-center">Or you can...</h3>
                         <div className="container col-4 justify-content-center align-items-center text-center">

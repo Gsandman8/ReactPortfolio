@@ -22,7 +22,7 @@ function Home() {
                         <h3 style={{fontFamily:"Helvetica", padding:"10px"}}>Hello there! My name is Gage Sandman. 
                             I am a rookie full-stack web developer with a background in sales and customer service. 
                             I am a recent graduate of the University of Berkeley Extension full-stack web development bootcamp. 
-                            Over I have dived into all aspects of full-stack web devlopment, from vanilla HTML, CSS, and Javascript to create static webpages, to using React.js, Node,js and GraphQL to create dynamic webpages with database capabilities. 
+                            During that course, I dove into all aspects of full-stack web devlopment, from vanilla HTML, CSS, and Javascript to create static webpages, to using React.js, Node,js and GraphQL to create dynamic webpages with database capabilities. 
                             I am excited for opportunities to increase my knowledge and skill in the field of web-development.</h3>
                     </div>
                     
