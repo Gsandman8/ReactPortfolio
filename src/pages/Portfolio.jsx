@@ -11,13 +11,14 @@ function Portfolio() {
             <div className="row">
                 <Project
                     title="Meal and Reel"
-                    description="A website that utilizies the Yelp and OMDB APIs to search for restaurants and movie suggestions."
+                    description="A website that utilizies the Yelp and OMDB APIs to search for restaurants and movie suggestions.
+                    This website was created using vanilla HTML, CSS, Javascript, as well as the Bulma CSS library."
                     image={MR}
                     link="https://gsandman8.github.io/ReelAndMeal/"
                 />
                 <Project
                     title="Social Goals Tracker"
-                    description="A full-stack aplicaiton that allows users to create and track goals."
+                    description="A full-stack application that allows users to create and track goals."
                     image={SGT}
                     link="https://sleepy-headland-38825-e68e0897078f.herokuapp.com/"
                 />
