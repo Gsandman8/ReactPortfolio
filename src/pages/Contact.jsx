@@ -39,6 +39,27 @@ function Contact() {
                          onClick={handleClick}>Submit</button>
                     </form>
                 </div>
+                <div className="col-md-6">
+                    <div className="container col-12" style={{padding:"20px 0"}}>
+                        <div className="row">
+                        <h3 className="text-center">Or you can...</h3>
+                        <div className="container col-4">
+                            <h4>Visit my Github!</h4>
+                            <a href="https://github.com/Gsandman8">Here!</a>
+                        </div>
+                        <div className="container col-4">
+                            <h4>Visit my LinkedIn!</h4>
+                            <a href=""></a>
+                        </div>
+                        <div className="container col-4">
+                            <h4>Send me an email!</h4>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gage.e.sandman@gmail.com">If you are using G-mail</a>
+                            <br/>
+                            <a href="mailto:gage.e.sandman@gmail.com">For other mail platforms</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
