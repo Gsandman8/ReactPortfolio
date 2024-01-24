@@ -19,7 +19,8 @@ function Portfolio() {
                 />
                 <Project
                     title="Social Goals Tracker"
-                    description="A full-stack application that allows users to create and track goals."
+                    description="A full-stack application that allows users to create and track goals. 
+                    This site utilizes a Prisma database, express.js and handlebars.js to create a dynamic website."
                     image={SGT}
                     link="https://sleepy-headland-38825-e68e0897078f.herokuapp.com/"
                 />
