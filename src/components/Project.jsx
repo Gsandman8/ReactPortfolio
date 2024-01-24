@@ -5,7 +5,7 @@ function Project({title, description, image, link}) {
         <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
-            <a href={link} className="btn btn-primary">Check it ut!</a>
+            <a href={link} className="btn btn-primary" style={{backgroundColor:"#ffe4e1"}}>Check it out!</a>
         </div>
     </div>
     );
