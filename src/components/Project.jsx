@@ -1,6 +1,6 @@
-function Project({title, description, image, link}) {
+function Project({title, description, image, link, style}) {
     return (
-    <div className="card col-sm-12 col-md-6" >
+    <div className={style}>
         <img src={image} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">{title}</h5>
