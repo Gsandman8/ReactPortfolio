@@ -1,6 +1,7 @@
 import Project from "../components/Project";
 import SGT from "../assets/SGT.png";
 import MR from "../assets/MRSS.png";
+import BD from "../assets/BD.png";
 
 function Portfolio() {
     return (
@@ -23,6 +24,12 @@ function Portfolio() {
                     This site utilizes a Prisma database, express.js and handlebars.js to create a dynamic website."
                     image={SGT}
                     link="https://sleepy-headland-38825-e68e0897078f.herokuapp.com/"
+                />
+                <Project
+                    title="Blaze Displayz"
+                    description="A full-stack storefront application that utilizes a MongoDB database, Apollo Server, and React.js to create a dynamic website. This website also uses the Stripe API for payment processing."
+                    image={BD}
+                    link="https://the-blazed-render-displayz.onrender.com/"
                 />
                 <div className="container col-12">
                     <h3 className="text-center">More Projects Coming Soon!</h3>
